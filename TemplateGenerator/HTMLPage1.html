@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <b><span style="color:black;">Country/Region</span></b><span style="color:black;"></span></p>
+    
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <span style="color:black;">All</span>
+    </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <span style="color:black;">&nbsp;</span>
+    </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <b>
+            <span style="color:black;">Persona (Actor)</span>
+        </b>
+        <span style="color:black;"></span>
+    </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <span style="color:black;">System Process</span>
+    </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <span style="color:black;">&nbsp;</span>
+    </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+        <b>
+            <span style="color:black;">Description</span>
+        </b><span style="color:black;"></span>
+    </p>
+    <p style="margin:0in 0in 0.0001pt;">
+        <font face="Calibri, sans-serif">
+            <span style="font-size:11pt;color:rgb(134, 17, 6);">Key Requirement </span>
+            <span style="font-size:11pt;">is to be able to look into Outlook Schedule for a </span>
+            <span style="font-size:14.6667px;">particular</span>
+            <span style="font-size:11pt;">&nbsp;resource and determine if the resource is available or not.&nbsp; Do not need to know why the resource is not available.</span>
+        </font>
+    </p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b>
+    <span style="color:black;"><br></span></b></p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;"><i>
+        <u>Direction: From PSA to Outlook</u></i></p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;">
+    The resource bookings assigned to an engineer should be uploaded to the assigned engineer’s Outlook calendar. </p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;"><br></p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b>
+        <span style="color:black;">Trigger Events (What event makes this happen)</span></b>
+    <span style="color:black;"></span></p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"></p>
+    <ol><li>
+        <span style="color:black;">When a new booking is created and assigned to a resource.<span>&nbsp;&nbsp;</span></span></li>
+    <li><span style="color:black;">When a current resource is modified and assigned to a different resource.</span></li></ol><p></p>
+    <p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;">
+    <span style="color:black;"><span style="display:inline !important;"><b>Solution:&nbsp;</b></span></span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span style="color:black;"><span style="display:inline !important;">OOB integration from resource bookings to Outlook calendar.</span><br></span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b><span style="color:black;">&nbsp;</span></b></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b><span style="color:black;">Preconditions (What is needed before this can happen)</span></b></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span style="color:black;">1. The field “Synchronize resource bookings with Outlook” must be checked under the System Settings.</span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span><img src="https://dev.azure.com/TELPSAADO/b13b0e2e-e7e0-41c8-8951-ce91d7afac74/_apis/wit/attachments/2612d6cc-a76c-4170-8da6-3289b21b7977?fileName=image.png" alt=Image></span><span style="color:black;"></span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span style="color:black;">&nbsp;</span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span style="color:black;">2. The resource must have the field “Synchronize resource bookings with Outlook” checked in the personal options.</span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span><img src="https://dev.azure.com/TELPSAADO/b13b0e2e-e7e0-41c8-8951-ce91d7afac74/_apis/wit/attachments/dfb8c46b-c1e2-4553-95c3-876c7645768b?fileName=image.png" alt=Image></span><b><span style="color:black;"></span></b></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b><span style="color:black;">&nbsp;</span></b></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><b><span style="color:black;">Post Conditions (What happens after the event happens/what is everything affected by change)</span></b><span style="color:black;"></span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0in;margin-bottom:.0001pt;"><span style="color:black;">The booking will display in the resource’s Outlook calendar.</span></p><p style="margin:0in 0in 8pt;font-size:11pt;font-family:Calibri, sans-serif;">&nbsp;</p><br>.
+</body>
+</html>
