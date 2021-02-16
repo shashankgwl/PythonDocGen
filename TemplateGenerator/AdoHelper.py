@@ -111,8 +111,8 @@ def StripHtml(work_items):
 
 
 
-personal_access_token = 'jvoddawauhkxwzag3w2vgj64xfm54tlu6prnjxsk2k7q2buexkua'
-organization_url = 'https://dev.azure.com/TELPSAADO'
+personal_access_token = '<ADO>'
+organization_url = 'https://dev.azure.com/<ORG>'
 wiqlQuery = Wiql(query= """select [System.Id],[System.WorkItemType],[System.Title], [System.Description] from WorkItems 
 where [System.Id] in (158,160,162,167,168,169,170,173,175,178,181,202,204,208,211,212,214)""")
 doc = DocxTemplate("C:\\Users\\SBHIDE\\OneDrive - Microsoft\\SHASHANK\\learning\\python\\tpl.docx")
