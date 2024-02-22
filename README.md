@@ -1,0 +1,1 @@
+This is a python based tool, which connects with an ADO repository and queries the desired workitems, it then generates a PDF file based on the description of the ADO. this can be used to generate documents straight from ADO. 
